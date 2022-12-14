@@ -1,0 +1,68 @@
+
+15. Write a Python program to get the volume of a sphere with radius 6.
+pi=3.1415926535897931
+r=6
+V=4/3*pi*r**3
+print("volume of sphere:",V)
+24. Write a Python program to test whether a passed letter is a vowel or not?
+vowels='a','e','i','o','u'
+n='b'
+if n in vowels:
+    print("True")
+else:
+    print("False")  
+
+29. Write a Python program to print out a set containing all the colors from color_list_1 which are not present in color_list_2?
+Test Data :
+color_list_1 = set(["White", "Black", "Red"])
+color_list_2 = set(["Red", "Green"])
+Expected Output :
+{'Black', 'White'}
+A)
+color_list_1 = set(["White", "Black", "Red"])
+color_list_2 = set(["Red", "Green"])
+print(color_list_1)
+print(color_list_2)
+print("\n difference of color_list_1 and color_list_2:")
+print(color_list_1.difference(color_list_2))
+print("\n difference of color_list_2 and color_list_1:")
+print(color_list_2.difference(color_list_1))
+30. Write a Python program that will accept the base and height of a triangle and compute the area?
+A)b=30
+h=20
+a=1/2*b*h
+print("Area of triangle:",a)
+
+58. Write a Python program to sum of the first n positive integers?
+A)
+n=12
+sum=(n*(n+1)/2)
+print("sum of n positive numbers:",sum)
+112. Write a Python program to remove the first item from a specified list?
+A)
+a=[1,2,3,4,5]
+print(a.pop(0))
+print(a)
+115. Write a Python program to compute the product of a list of integers (without using for loop)?
+A)x=10
+y=20
+z=30
+print(x*y*z)
+
+122. Write a Python program to empty a variable without destroying it?
+A)
+n=20
+d={"x":200}
+d.clear()
+print(d)
+138. Write a Python program to convert true to 1 and false to 0?
+A)x="True"
+y=int(x=="True")
+print(y)
+a="abcd"
+b=int(a=="True")
+print(b)
+134. Write a Python program to input two integers in a single line?
+A)x=5
+y=6
+print("The input:",x,y)
